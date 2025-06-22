@@ -1,0 +1,16 @@
+class Book {
+public:
+    string title;
+    string author;
+    int copies;
+
+    void addBook(string t, string a, int c) {
+        title = t;
+        author = a;
+        copies = c;
+    }
+
+    void showBook() {
+        cout << "Title: " << title << ", Author: " << author << ", Copies: " << copies << endl;
+    }
+};
